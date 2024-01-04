@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ruler", "ruler\ruler.csproj", "{093C7D5D-F0E8-451B-A316-679D244384DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3EDC0C2D-BB34-42D3-92A2-DCE774F61E48}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Vader Bot", "Vader Bot\Vader Bot.vdproj", "{677024DA-07B5-484A-92AA-9C9AE6A16BF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{093C7D5D-F0E8-451B-A316-679D244384DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093C7D5D-F0E8-451B-A316-679D244384DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093C7D5D-F0E8-451B-A316-679D244384DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093C7D5D-F0E8-451B-A316-679D244384DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677024DA-07B5-484A-92AA-9C9AE6A16BF7}.Debug|Any CPU.ActiveCfg = Debug
+		{677024DA-07B5-484A-92AA-9C9AE6A16BF7}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

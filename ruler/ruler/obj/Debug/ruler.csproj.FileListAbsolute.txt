@@ -1,0 +1,33 @@
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\bin\Debug\ruler.exe.config
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\bin\Debug\ruler.exe
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\bin\Debug\ruler.pdb
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\Interop.AutoItX3Lib.dll
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\ruler.csproj.ResolveComReference.cache
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\ruler.Form1.resources
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\ruler.Properties.Resources.resources
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\ruler.csproj.GenerateResource.Cache
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\ruler.exe
+c:\users\ahmet\documents\visual studio 2013\Projects\ruler\ruler\obj\Debug\ruler.pdb
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\bin\Debug\WindowsInput.dll
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\bin\Debug\WindowsInput.pdb
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\bin\Debug\WindowsInput.xml
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\obj\Debug\ruler.skillbar.resources
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\obj\Debug\ruler.loadingscreen.resources
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\obj\Debug\ruler.csprojResolveAssemblyReference.cache
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\bin\Debug\ruler.exe.config
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\bin\Debug\ruler.exe
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\bin\Debug\WindowsInput.dll
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\bin\Debug\WindowsInput.pdb
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\bin\Debug\WindowsInput.xml
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.csproj.AssemblyReference.cache
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.csproj.ResolveComReference.cache
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.Form1.resources
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.loadingscreen.resources
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.Properties.Resources.resources
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.skillbar.resources
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.csproj.GenerateResource.cache
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.csproj.CopyComplete
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.exe
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\obj\Debug\ruler.pdb
+C:\Users\ahmet\Downloads\ruler11\ruler\ruler\bin\Debug\ruler.pdb

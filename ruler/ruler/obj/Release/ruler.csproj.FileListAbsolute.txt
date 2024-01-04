@@ -1,0 +1,3 @@
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\bin\Release\ruler.exe.config
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\obj\Release\Interop.AutoItX3Lib.dll
+C:\Users\Ahmet\Documents\Visual Studio 2013\Projects\ruler\ruler\obj\Release\ruler.csproj.ResolveComReference.cache

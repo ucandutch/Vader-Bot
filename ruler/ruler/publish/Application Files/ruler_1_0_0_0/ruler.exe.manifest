@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ruler.exe" version="1.0.0.0" publicKeyToken="21eb4b0e4070ffe2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ruler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ruler.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ruler.exe" size="667136">
+      <assemblyIdentity name="ruler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fB8fCdqV0pbyWnFBdCeRG23h+QJ31+amLwccI/Yb7uw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsInput.dll" size="22528">
+      <assemblyIdentity name="WindowsInput" version="1.0.6.0" publicKeyToken="DE2685B4776E9C2E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vuX5px6eqSK8nnErklfPsFm2iayNQ23UTMmcAl9vg6U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logo2.ico" size="6458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8i1bUY22sjgJGbjAPGm+q6AGoNiCJjCJoWthCxxYE/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Image1.bmp" size="1440054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j0veE2CBoo8M3R87JUk1MfQ+WtIReloIsAvN8RkVc1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\petfeed.png" size="1678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XNohAsIwaSdaFaof3GPV251Q3uzb62uUc71HpajzKpU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\petfeedson.bmp" size="1440054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KZgw+xm3PZoF9EwNd5DBhdjWbYyt/A2Rtj2M/+tCXOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\petfeedyes.bmp" size="1440054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZGXyXbhT+5AODcUDOdl4JGjAusm/WklRKvKfr2vpRKM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\petitem.bmp" size="1440054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>umohkabRWcacg5Ae8QVKAVMJdWLWVdI+6H2BjbdluwQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ruler.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-62HCHP4\Ahmet" issuerKeyHash="1e52a4c63dcfcfafe490513bc24b5ab7b6c07c02" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lUg3O2Ou5j7Xi4w6XjOc61N2GDA4Qyq3liukh5WG9d8=</DigestValue></Reference></SignedInfo><SignatureValue>Mz2XDZwuAXOHJHDGkNHir6luSL7WXhbbfyEH4rT35b3lQa+KN/ORJdjlXNici/7Ue9vD2fjrm/piNPLYL2eRyTk8ErqNU2x2yqepqReEuaIEHkEN64xOZGXvlc0iBbkkIMJoJQk1T5kCwNig8f3A7R/pIkG0sYD6dY6CXedFjJ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>phNJxXoHuJ/5qvUvYsi1zV6RKgcS7kB5azWQ19Qrd2vcM1iVpHGaEj82ud9dtsEIDsmu1OqEBweANBHasbTRWFvRG+Wc11wxvvHHSJqE0KaMbIl2YS7AYcE+b1enbm+MX4wjyLuR67WEm/Y2LSend4W9XJ3bowTPD4hbbbvt/BU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dff5869587a42b96b72a433830187653eb9c335e3a8c8bd73ee6ae633b374895" Description="" Url=""><as:assemblyIdentity name="ruler.exe" version="1.0.0.0" publicKeyToken="21eb4b0e4070ffe2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-62HCHP4\Ahmet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1Wd4hbKL2l+YvtFrI47D7n84JPXAfi2IZcaIoMn4AFQ=</DigestValue></Reference></SignedInfo><SignatureValue>RVlbXk13CB0cXdFnONVZc/wgeT+ukcOm6d6R1J7lNK1qQj3xCmjgS33VB9Z7UXpUDMv6XG8G1cZph3IRJCwfT+LoBapNdAh0FY9Z1xr7/pGZ1ZdbcFIDGC9g8AewHmjocLTaHbxit3INaqh+SHSHmZQbgJ6IYd4gQlYHI2Q2BFU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>phNJxXoHuJ/5qvUvYsi1zV6RKgcS7kB5azWQ19Qrd2vcM1iVpHGaEj82ud9dtsEIDsmu1OqEBweANBHasbTRWFvRG+Wc11wxvvHHSJqE0KaMbIl2YS7AYcE+b1enbm+MX4wjyLuR67WEm/Y2LSend4W9XJ3bowTPD4hbbbvt/BU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIsD7yVAb8J5LL/KMsZzaojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAMgBIAEMASABQADQAXABBAGgAbQBlAHQwHhcNMTgxMjA5MTk1ODU0WhcNMTkxMjEwMDE1ODU0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAMgBIAEMASABQADQAXABBAGgAbQBlAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKYTScV6B7if+ar1L2LItc1ekSoHEu5AeWs1kNfUK3dr3DNYlaRxmhI/NrnfXbbBCA7JrtTqhAcHgDQR2rG00Vhb0RvlnNdcMb7xx0iahNCmjGyJdmEuwGHBPm9Xp25vjF+MI8i7keu1hJv2Ni0np3eFvVyd26MEzw+IW2277fwVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAaKbFMi27ZQZlIn7J39ny+38rBMF2AHmBHBEYP0iBSZXBH4/Jq0v5J2kWTXqmOF94fZ/hpB6EWCIK2tmU8fSCm8di8MYtaByt/jHX1k9bTCdcOgb65sY/Eo3/suvhL4Ha3+U2r4ZPl9IIpZBcxZ4/qEdr5bcdX7YaVqBDUSfYaGA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
